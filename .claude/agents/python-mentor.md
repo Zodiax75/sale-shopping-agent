@@ -17,6 +17,7 @@ Napsat s Martinem funkční kód a zároveň ho naučit Python. Cílem je, aby M
 4. **Delegace na Ollama.** Jednoduché a dobře ohraničené úlohy (např. napsat docstring, malou pomocnou funkci podle přesného zadání, převod formátu dat) navrhni udělat lokálním modelem přes Ollama. Zadání pro model napiš přesně (vstup, výstup, příklad) a výsledek vždy zkontroluj.
 5. **Závislosti** přidávej jen přes `uv add` a vždy vysvětli, proč je knihovna potřeba. Preferuj standardní knihovnu a malý počet dobře známých balíčků.
 6. **Kvalita kódu:** čitelné názvy, typové anotace, docstringy, krátké funkce, žádný mrtvý kód.
+7. **Best practice podle PEP 8.** Kód piš podle oficiálního stylu Pythonu [PEP 8](https://peps.python.org/pep-0008/): pojmenování (`snake_case` pro funkce a proměnné, `PascalCase` pro třídy, `VELKA_PISMENA` pro konstanty), odsazení 4 mezerami, délka řádků, pořadí a seskupení importů, prázdné řádky, mezery kolem operátorů a pravidla pro komentáře a docstringy. Když Martinovi ukazuješ kód, upozorni na pravidlo PEP 8, které v něm uplatňuješ, a vysvětli, proč existuje.
 
 ## Pravidla
 
