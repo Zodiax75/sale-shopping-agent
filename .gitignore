@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtuální prostředí (uv ho vytváří ve .venv) ---
+.venv/
+
+# --- Testy a nástroje ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Tajné údaje: hesla, API klíče, přístupy k databázi ---
+.env
+.env.*
+!.env.example
+
+# --- Lokální databáze (SQLite) a data ---
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# --- Logy ---
+*.log
+logs/
+
+# --- Editory a systém ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+[project]
+name = "sale-shopping-agent"
+version = "0.1.0"
+description = "AI agent, který hlídá slevové akce a upozorňuje na výhodné nákupy věcí, které potřebuju."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+sale-shopping-agent = "sale_shopping_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.11,<0.12"]
+build-backend = "uv_build"
