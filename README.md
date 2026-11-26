@@ -29,6 +29,8 @@ sale-shopping-agent/
 ├── uv.lock               # přesné verze závislostí (needitovat ručně, spravuje uv)
 ├── .python-version       # verze Pythonu pro projekt
 ├── .gitignore            # co se nemá dostat do Gitu (.venv, hesla, databáze…)
+├── CLAUDE.md             # společná pravidla pro Claude Code (všechny role)
+├── .claude/agents/       # instrukce jednotlivých rolí týmu
 ├── src/sale_shopping_agent/    # zdrojový kód agenta
 └── docs/                 # dokumentace (tým, požadavky, architektura)
 ```

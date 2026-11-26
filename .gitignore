@@ -35,3 +35,6 @@ logs/
 .idea/
 .DS_Store
 Thumbs.db
+
+# --- Claude Code: osobní lokální nastavení (sdílené .claude/agents a CLAUDE.md se commitují) ---
+.claude/settings.local.json
